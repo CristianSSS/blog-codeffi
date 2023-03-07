@@ -1,5 +1,5 @@
 .main{
-    max-width: 900px;
+    max-width: 1000px;
 }
 .section-content{
     grid-template-columns: 60% 30%;
@@ -17,19 +17,37 @@ text-align: center;
 padding: 20px 0 50px 0;
 }
 
+.author-data{
+    display: flex;
+    align-items: center;
+}
+.author-data p{
+    padding: 0;
+    margin: 0;
+    
+}
 
-
+.author-container{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.author-container p{
+   padding: 0;
+   margin: 0;
+}
 /* Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
     .section-content{
         grid-template-columns: 100%;
         
     }
-}
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
-    
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/

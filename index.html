@@ -17,11 +17,17 @@
 <body>
     <header class="header">
         <nav class="header-nav">
-            <img class="header-nav_img" src="" alt="">
+            <img style="width: 60px; height: 60px; border-radius: 50px;" class="header-nav_img" src="./assets/logo1.png" alt="">
             <ul class="header-nav-ul">
+                <li class="header-nav-ul-li">Inicio</li>
                 <li class="header-nav-ul-li">item</li>
-                <li class="header-nav-ul-li">item</li>
-                <li class="header-nav-ul-li">item</li>
+                <li class="header-nav-ul-li">Contacto</li>
+                <li class="header-nav-ul-li">
+                    <input type="checkbox" id="select-theme" style="display: none;">
+                    <label for="select-theme">
+                        <img id="icon-theme" src="./assets/creciente.png" alt="" style="width: 30px; height: 30px;">
+                    </label>
+                </li>
             </ul>
         </nav>
     </header>
@@ -50,6 +56,14 @@
                 <h2>Ultimas publicaciones</h2>
                 <article>
                     <header style="padding: 0;"><img style="width: 100%; object-fit: cover; height: 300px;" src="https://media.istockphoto.com/id/1337329904/es/foto/imagen-de-fondo-de-cifrado-de-codificaci%C3%B3n-digital-de-seguridad-cibern%C3%A9tica.jpg?b=1&s=170667a&w=0&k=20&c=Pzg_3mgl0Y5U9MDOLXAimfLfzUqIg_bJU-px501wuIA=" alt=""></header>
+                    <div class="author-container">
+                        
+                        <div class="author-data">
+                            <img src="./assets/user.jpg" alt="" style="width: 30px; height: 30px; border-radius: 50px; margin: 0 5px;">
+                            <p>Cristian Salgado</p>
+                        </div>
+                        <p class="author-date-post">07-03-2023</p>
+                    </div>
                     <h3>Titulo</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate minima ipsam possimus officiis maxime, cumque sed exercitationem, dolor porro inventore quo culpa quas. Magnam enim dolorum id quas asperiores. Eos!...</p>
                 </article>
@@ -97,5 +111,6 @@
             
             });
     </script>
+    <script src="./js/switch-theme.js"></script>
 </body>
 </html>
