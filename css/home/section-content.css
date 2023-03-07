@@ -1,12 +1,14 @@
+.main{
+    max-width: 900px;
+}
 .section-content{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 600px auto;
     column-gap: 25px;
     
 }
 .section-content-grid-item article, .section-content-grid-item button{
-    max-width: 800px;
-    min-width: 300px;
+    
 }
 
 .aside{
@@ -14,8 +16,28 @@
     border: 1px solid rgba(170, 169, 169, 0.301);
     width: 100%;
     height: 500px;
+    margin: 25px 0;
 }
 .aside h4{
 text-align: center;
 padding: 20px 0 50px 0;
 }
+
+
+
+@media (min-width: 576px) {
+   
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { }
