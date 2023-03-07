@@ -1,0 +1,15 @@
+@import url("./root.css"); /* Raiz */
+
+@import url("./normalize.css"); /* Normalizacion de estilos */
+
+@import url("../node_modules/@picocss/pico/css/pico.min.css");/*Boostrap*/
+
+@import url("./header.css"); /* Header */
+
+@import url("./footer.css"); /* Footer */
+
+/* @import url("./locomotive.min.css"); Funcionamiento del scroll lateral */
+
+@import url("https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"); /* Swiper js */
+
+@import url("./swiper.css"); /* estilos personalizados de swiper js*/

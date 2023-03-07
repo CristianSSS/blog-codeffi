@@ -1,0 +1,10 @@
+.btn-music{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #2EC6FF;
+    margin: 50px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
