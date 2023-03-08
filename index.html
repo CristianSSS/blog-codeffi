@@ -31,26 +31,39 @@
             </ul>
         </nav>
     </header>
-
-    <main class="container main">
-        <section class="section-swiper-hero">
-            <div class="swiper section-swiper-hero-swiper">
-                <div class="swiper-wrapper section-swiper-wrapper">
-                    <div class="swiper-slide section-swiper-slide">
-                        <img class="section-swiper-slide-img" src="./assets/Blog1.png" alt="">
+    <section class="section-swiper-hero">
+        <div class="swiper section-swiper-hero-swiper">
+            <div class="swiper-wrapper section-swiper-wrapper">
+                <div class="swiper-slide section-swiper-slide">
+                    <div style="height: 100vh; display: flex;align-items: center; justify-content: center;">
+                        <h1>Blog</h1>
                     </div>
-                    <div class="swiper-slide section-swiper-slide">
-                        <img class="section-swiper-slide-img" src="https://media.istockphoto.com/id/1337595471/es/foto/fondo-abstracto-degradado-de-luz-azul-borroso-fondo-de-pantalla-vac%C3%ADo-de-la-habitaci%C3%B3n-de.jpg?b=1&s=170667a&w=0&k=20&c=4D9lQ9eOPNk0lbHbgbI-layyCK99qvhh4CqUImEbBZk=" alt="">
-                    </div>
-                    
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
+                <div class="swiper-slide section-swiper-slide">
+                </div>
+                
             </div>
-        </section>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
 
+        </div>
+    </section>
+    <main class="container main">
+        
+        <section>
+            <article>
+                    <p>
+                        Hola! ✋ me llamo Cristian Salagado. Bienvenido/a a Codeffi, un blog que he creado para programadores.</p>
+                    <p>
+                    <p>
+                        El objetico es contar mis experiencias y mi camino como desarrollador web que seguramente encuentres muy util!
+                
+                    </p>
+                    Podes explorar por categorias y ultimas publicaciones
+                    </p>
+            </article>
+        </section>
         <section class="section-content grid">
             <div class="section-content-grid-item item-1">
                 <h2>Ultimas publicaciones</h2>
@@ -96,19 +109,16 @@
         const swiper = new Swiper('.swiper', {
             // Optional parameters
             direction: 'horizontal',
-            loop:true,
+            autoplay:true,
             // If we need pagination
             pagination: {
                 el: '.swiper-pagination',
             },
-
             // Navigation arrows
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-
-            
             });
     </script>
     <script src="./js/switch-theme.js"></script>
